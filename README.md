@@ -1,9 +1,14 @@
 # Today I Learned
 
-## git
+## Git
 [git](git/README.MD)
 
-## python
+## Markdown
 
 
-## java
+## CLI
+
+## Python
+
+
+## Java
