@@ -38,3 +38,32 @@
        (창 종료 시에는 esc 누르고 `:wq` )    
     - `git commit --amend -m "수정된 메시지"` : commit 메시지 수정
     - `rm -rf .git/` : 잘못 git init한 경우 git 관리 삭제하는 명령어
+
+    - revert : 기존 commit 을 없었던 일로 처리 후 새로운 commit 추가
+    
+    `git revert [옵션] <commit id>`  → Vim 창 나오고 저장하면 완료
+    
+    - git revert 시 내 컴퓨터 안에서도 충돌이 일어날 수 있음!!
+    - revert 하고 나서 github에 반영하려면 push 해야함~~
+    - 옵션
+        - `--no-edit`  : 편집기 열지 않고 자동으로 commit까지 진행
+        - `--no-commit`  : 자동으로 commit하지 않고 Staging Area에만 올림(이후 직접 commit 해야 함) → 여러 commit revert 할 때, 하나의 commit으로 묶을 수 있음
+- reset : 특정 commit으로 되돌리기, 되돌아간 commit 이후의 commit은 모두 삭제
+    
+    `git reset [옵션] <commit id>`  
+    
+    - 옵션
+        - `--soft`  : **삭제된 commit 기록**을 staging area에 남김 (파일을 add 상태로 남김)
+        - `--mixed` : working directory에 남김 (default) (파일을 untracted 상태로 남김)
+        - `--hard`  : 안 남김 (내 컴퓨터의 파일도 없어짐;;)
+
+**웬만하면 revert, reset 하지 말고 그냥 새로 commit 하자~!**
+
+- restore : 내 컴퓨터에서 작업하던 걸 git에 최종 저장된 버전으로 되돌리는 작업
+    
+    `git restore [옵션] <파일명>`  
+    
+    근데 restore 해서 없어진 건 다시 복구 못함 ㅠ.ㅠ
+    
+    - 옵션
+        - `--staged` : add 까지 한 파일을 복구
