@@ -1,5 +1,6 @@
-#리스트와 튜플을 이용해 각 학생 점수 및 학생들의 과목별 총점, 평균 출력
+### 리스트와 튜플을 이용해 각 학생 점수 및 학생들의 과목별 총점, 평균 출력
 
+```
 scores = []
 
 count = int(input("총 학생 수를 입력하세요: "))
@@ -34,3 +35,4 @@ for score in scores:
 print(f"국어 => 총점: {kor_total}, 평균: {kor_total/len(scores)}")
 print(f"수학 => 총점: {mat_total}, 평균: {mat_total/len(scores)}")
 print(f"영어 => 총점: {eng_total}, 평균: {eng_total/len(scores)}")
+```

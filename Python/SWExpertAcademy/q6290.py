@@ -6,5 +6,10 @@ inputWord = ['막', '부모님', '비용', '비행기', '원래', '처리', '최
 result = []
 
 for i in range(len(dicBase)):
-    inner_list=[]
-    print(dicBase[0][0]<inputWord[0]<dicBase[0][1])
+    inner_list=[inputWord[j] for j in range(len(inputWord)) if dicBase[i][0]<=inputWord[j]<=dicBase[i][1]]
+    # for j in range(len(inputWord)):
+    #     if dicBase[i][0]<inputWord[j]<dicBase[i][1]:
+    #         inner_list.append(inputWord[j])
+    result.append(inner_list)
+    
+print(result)
