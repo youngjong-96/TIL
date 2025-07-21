@@ -11,10 +11,12 @@
 ## CLI
 
 ## Python
-[IDEAS](git/IDEAS.md)
+[IDEAS](Python/IDEAS.md)
 
-[often_make_mistake](git/often_make_mistake.md)
+[often_make_mistake](Python/often_make_mistake.md)
 
-[WORDS](git/WORDS.md)
+[WORDS](Python/WORDS.md)
+
+[f_string](Python/f_string.md)
 
 ## Java
