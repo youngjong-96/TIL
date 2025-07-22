@@ -26,4 +26,8 @@
 
 [Python_function](Python/Python_function.md)
 
+[Basic_Syntax.md](Python/Basic_Syntax.md)
+
+[Shallow_copy_deep_copy](Python/Shallow_copy_deep_copy.md)
+
 ## Java
