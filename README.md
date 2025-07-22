@@ -12,6 +12,10 @@
 [CLI_basic_grammar](CLI/CLI_basic_grammar.md)
 
 ## Python
+[BackJoon](Python/BaekJoon)
+
+[SWExpertAcademy](Python/SWExpertAcademy)
+
 [IDEAS](Python/IDEAS.md)
 
 [often_make_mistake](Python/often_make_mistake.md)
@@ -19,6 +23,8 @@
 [Terms](Python/TERMS.md)
 
 [f_string](Python/f_string.md)
+
+[Sort_Sorted](Python/Sort_Sorted.md)
 
 [String_function](Python/String_function.md)
 

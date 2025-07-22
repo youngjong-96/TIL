@@ -2,4 +2,7 @@
 # 첫번째, 다섯번째, 여섯번째 항목을 제거한 후 리스트를 출력하는 프로그램을 작성하십시오.
 
 list1 = [12, 24, 35, 70, 88, 120, 155]
+idx = [1,2,3,6]
 
+result = [list1[i] for i in range(len(list1)) if i in idx]
+print(result)
