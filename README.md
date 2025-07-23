@@ -16,12 +16,19 @@
 
 [SWExpertAcademy](Python/SWExpertAcademy)
 
+#### Basic
+[Basic_Syntax.md](Python/Basic_Syntax.md)
+
+[Basic_function.md](Python/Basic_function.md)
+
+[Terms](Python/TERMS.md)
+
+#### Think
 [IDEAS](Python/IDEAS.md)
 
 [often_make_mistake](Python/often_make_mistake.md)
 
-[Terms](Python/TERMS.md)
-
+#### ETC
 [f_string](Python/f_string.md)
 
 [Sort_Sorted](Python/Sort_Sorted.md)
@@ -30,9 +37,7 @@
 
 [ex_set_dict](Python/ex_set_dict.md)
 
-[Python_function](Python/Python_function.md)
-
-[Basic_Syntax.md](Python/Basic_Syntax.md)
+[Built-in_function](Python/Built-in_function.md)
 
 [Shallow_copy_deep_copy](Python/Shallow_copy_deep_copy.md)
 
