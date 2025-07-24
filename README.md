@@ -21,6 +21,10 @@
 
 [Basic_function.md](Python/Basic_function.md)
 
+[Basic_Module](Python/Basic_Module.md)
+
+[Basic_Control_of_Flow](Python/Basic_Control_of_Flow.md)
+
 [Terms](Python/TERMS.md)
 
 #### Think
