@@ -35,7 +35,7 @@
 #### Study
 - [f_string](Python/f_string.md)
 
-- [Sort_Sorted](Python/Sort_Sorted.md)
+- [sort_sorted](Python/sort_sorted.md)
 
 - [String_function](Python/String_function.md)
 
@@ -45,8 +45,12 @@
 
 - [Shallow_copy_deep_copy](Python/Shallow_copy_deep_copy.md)
 
-- [Setdefault](Python/Setdefault.md)
+- [setdefault_function](Python/setdefault_function.md)
 
 - [Packing_Unpacking](Python/Packing_Unpacking.md)
+
+- [isinstance_function](Python/isinstance_function.md)
+
+- [isalpha_isdigit](Python/isalpha_isdigit.md)
 
 ## Java
