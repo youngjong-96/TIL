@@ -25,6 +25,8 @@
 
 - [Basic_Control_of_Flow](Python/Basic_Control_of_Flow.md)
 
+- [Basic_DataStructure](Python/Basic_DataStructure.md)
+
 - [Terms](Python/TERMS.md)
 
 #### Think

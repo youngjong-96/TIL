@@ -62,4 +62,22 @@ outer_func()
 print(x,y) # G G
 
 
-# 9. 
+# 9. zip() 함수 - iterable을 같은 위치끼리 모아서 반환
+scores = [
+    [1,2,3],
+    [4,5,6],
+    [7,8,9],
+]
+
+for score in zip(*scores):
+    print(score)
+
+# >>>
+"""
+(1, 4, 7)
+(2, 5, 8)
+(3, 6, 9)
+"""
+
+
+# 10. 
