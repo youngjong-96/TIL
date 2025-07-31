@@ -27,6 +27,10 @@
 
 - [Basic_DataStructure](Python/Basic_DataStructure.md)
 
+- [Basic_Exception](Python/Basic_Exception.md)
+
+- [Basic_OOP](Python/Basic_OOP.md)
+
 - [Terms](Python/TERMS.md)
 
 #### Think
