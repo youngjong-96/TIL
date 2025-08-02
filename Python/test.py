@@ -83,5 +83,6 @@
 # # 10. 
 
 
-string = '2015-01-15'
-print(string[0:4])
+string = "c=c="
+# string = string.replace('lj',"")
+print(string[2:5])
