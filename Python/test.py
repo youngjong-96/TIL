@@ -83,6 +83,15 @@
 # # 10. 
 
 
-string = "c=c="
-# string = string.replace('lj',"")
-print(string[2:5])
+N, M = map(int, input().split()) # N = 정수의 개수, M = 구간의 크기
+ai = list(map(int, input().split()))
+
+lst = [] # M 크기 구간 별 모든 합을 저장할 리스트
+
+for i in range(N-M+1): # (정수의 개수 - 구간의 크기 +1) 개의 합
+    sum = 0
+    for j in range(M): # M 크기 구간만큼 한 칸씩 옆으로 가면서 더하기
+        sum += ai[i+j]
+    lst.append(sum)
+
+print(lst)

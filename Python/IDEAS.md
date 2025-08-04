@@ -1,7 +1,7 @@
 # 문제 해결 개념
 
 ## 최댓값 구하기
-```
+```python
 max_val = 0
 if compare_val > max_val:
     max_val = compare_val
@@ -12,11 +12,10 @@ if compare_val > max_val:
 `A, B = B, A`
 
 ## 중첩 반복문 활용 - 안쪽 반복문 시작 숫자 늘리기
-```
+```python
 for i in range(3):
     
     print(f"바깥쪽 루프 #{i+1} (i = {i})")
-    
     # 안쪽 루프는 i 값에서 시작하여 i+3 직전까지 3번 반복합니다.
     # i=0 일 때: range(0, 3) -> 0, 1, 2
     # i=1 일 때: range(1, 4) -> 1, 2, 3
@@ -47,7 +46,17 @@ for i in range(3):
 
 ## 빈 배열의 인덱스를 사용하기 위해 배열값이 없는 리스트 생성하기
 
-`list = [None] * x` : x개 원소 생성
+`list = [None] * x` : x개 원소 생성, None 대신 0을 넣을 때도 있음
+
+
+## join 함수로 리스트 안에 있는 숫자 이어서 출력하기
+
+```python
+sample = [1, 2, 3, 4, 5]
+print(",".join(map(str, sample)))
+```
+join 은 "문자열" 만 연결해주기 때문에 map 함수로 str 형으로 변환 후 연결한다
+
 
 
 
