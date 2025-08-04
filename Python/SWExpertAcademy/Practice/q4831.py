@@ -9,8 +9,8 @@ T = int(input())
 
 for t in range(T):
     K, N, M = map(int,input().split())
-    M_list = [0] + list(map(int, input().split()))
-    M_list.append(N)
+    bus_stop = [0] + list(map(int, input().split()))
+    bus_stop.append(N)
     
     # 충전소 방문 횟수
     result = 0
@@ -18,16 +18,25 @@ for t in range(T):
     # 충전 안하고 지나칠 경우의 소모값
     used = 0
     
-    for i in range(len(M_list)-1):
-        while i < len(M_list)-2:    
-            if M_list[i] + K < M_list[i + 1]:
-                result = 0
-                break
-            elif M_list[i] + K - used <= M_list[i + 2]:
-                result += 1
-                used = 0
-            elif M_list[i] + K - used > M_list[i + 2]:
-                used += M_list[i + 1] - M_list[i]
+    for i in range(len(bus_stop)-2):
+        # 다음 충전소까지 거리    
+        l = bus_stop[i + 1] - bus_stop[i]
+        # 다다음 충전소까지 거리
+        l2 = bus_stop[i + 2] - bus_stop[i]
+        
+        
+        if K < l:  # 다음 충전소까지 못가면 0
+            result = 0
+            break
+        elif l <= K - used < l2: # 다음 충전소까지는 되지만 그 다음은 안되면 들린다
+            result += 1
+            used = 0
+        elif K - used >= l2: # 한 번에 다다음까지 갈 수 있으면 지나쳐가고 그 거리만큼 소모값 증가
+            used += l
+            
+    # 마지막 정류소로부터 도착지 비교
+    if K - used < bus_stop[-1] - bus_stop[-2]:
+        result = 0
     
     print(f"#{t+1} {result}")
     
