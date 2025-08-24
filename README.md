@@ -11,6 +11,13 @@
 ## CLI
 - [CLI_basic_grammar](CLI/CLI_basic_grammar.md)
 
+## Algorithm
+- [Sort](Algorithm/Sort.md)
+
+- [Search](Algorithm/Search.md)
+
+- [Backtracking](Algorithm/Backtracking.md)
+
 ## Python
 - [BackJoon](Python/BaekJoon)
 
