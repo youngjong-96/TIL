@@ -58,9 +58,38 @@ print(",".join(map(str, sample)))
 join 은 "문자열" 만 연결해주기 때문에 map 함수로 str 형으로 변환 후 연결한다
 
 
+## 비트 연산자를 이용한 부분집합 만들기
 
 
+```python
+# 비트 연산자를 이용한 부분 집합 만들기
+arr = [1,2,4]
+
+n = len(arr)
+
+for i in range(1 << n):  # 1 << n : 부분 집합의 개수
+                         # 십진수 0~부분집합의 개수 까지를 2진수로 가지면 "bit배열이 만들어진다!"
+    for j in range(n):   # 원소의 수만큼 비트를 비교하기 위해 반복하기 위한 for 문
+        if i & (1 << j): # i 의 j번 비트가 1인지 확인
+            print(arr[j], end=", ")  # j번 원소 출력
+    print()
+print()
+```
 
 
+## 회문 확인 - 길이의 절반만큼만 비교하면 된다
 
+```python
+def is_palindrome(txt):
+	for i in range(len(txt)//2):  # 길이의 절반만큼만 비교하면 됨
+		if txt[i] != txt[len(txt)-1-i]:   # 맨 앞 글자와 맨 뒤 글자가 같은지 비교
+			return False
+	return True
 
+print(is_palindrome("level"))
+print(is_palindrome("algorithm"))
+
+>>>
+True
+False
+```
