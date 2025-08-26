@@ -11,6 +11,9 @@
 ## CLI
 - [CLI_basic_grammar](CLI/CLI_basic_grammar.md)
 
+## WEB
+- [HTML_CSS](Web/HTML_CSS.md)
+
 ## Algorithm
 - [Sort](Algorithm/Sort.md)
 
