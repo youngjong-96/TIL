@@ -16,12 +16,17 @@
   
 - [CSS_Layout](Web/CSS_Layout.md)
 
+## DataStructure
+- [Tree](DataStructure/Tree.md)
+  
 ## Algorithm
 - [Sort](Algorithm/Sort.md)
 
 - [Search](Algorithm/Search.md)
 
 - [Backtracking](Algorithm/Backtracking.md)
+
+- [BFS_DFS](Algorithm/BFS_DFS.md)
 
 ## Python
 - [BackJoon](Python/BaekJoon)
