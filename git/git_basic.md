@@ -16,9 +16,9 @@
     
     [초기 설정 - 처음에 한 번만 하면 됨ㅇㅇ]
     
-    1.  `git init` : repository 초기화
-    2. `git config --global [user.email](http://user.email) “이메일”` : git 계정 등록
-    3. `git config --global [user.name](http://user.name) "이름"` : git 사용자 이름 등록
+    1. git init : repository 초기화
+    2. git config --global user.email {내 github 이메일} : git 계정 등록
+    3. git config --global user.name {사용할 이름} : git 사용자 이름 등록
     
     [사용 - 앞으로 계속 하는거]
     
