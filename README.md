@@ -5,6 +5,9 @@
 
 - [github_basic](git/github_basic.md)
 
+## AI
+- [AI_AI_MATH](AI/0_1_AI_MATH/)
+
 ## Markdown
 - [Markdown_basic_grammar](Markdown/markdown_basic_grammar.md)
 
