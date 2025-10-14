@@ -8,6 +8,17 @@
 ## AI
 - [AI_AI_MATH](AI/0_1_AI_MATH/)
 
+## Git
+- [Django](Django/Intro_StartProject.md/)
+
+- [Django](Django/Templates_URLs.md/)
+
+- [Django](Django/ORM.md/)
+
+- [Django](Django/ORM_with_view.md/)
+
+- [Django](Django/Model.md/)
+
 ## Markdown
 - [Markdown_basic_grammar](Markdown/markdown_basic_grammar.md)
 
