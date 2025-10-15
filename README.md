@@ -10,6 +10,8 @@
 
 - [AI_EDA](AI/1_1_EDA/)
 
+- [AI_MLP](AI/1_2_MLP/)
+
 ## Django
 - [Intro_StartProject](Django/Intro_StartProject.md/)
 
