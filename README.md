@@ -6,18 +6,22 @@
 - [github_basic](git/github_basic.md)
 
 ## AI
-- [AI_AI_MATH](AI/0_1_AI_MATH/)
+- [AI_MATH](AI/0_1_AI_MATH/)
 
-## Git
-- [Django](Django/Intro_StartProject.md/)
+- [AI_EDA](AI/1_1_EDA/)
 
-- [Django](Django/Templates_URLs.md/)
+## Django
+- [Intro_StartProject](Django/Intro_StartProject.md/)
 
-- [Django](Django/ORM.md/)
+- [Templates_URLs](Django/Templates_URLs.md/)
 
-- [Django](Django/ORM_with_view.md/)
+- [ORM](Django/ORM.md/)
 
-- [Django](Django/Model.md/)
+- [ORM_with_view](Django/ORM_with_view.md/)
+
+- [Model](Django/Model.md/)
+
+- [Form](Django/Form.md/)
 
 ## Markdown
 - [Markdown_basic_grammar](Markdown/markdown_basic_grammar.md)
